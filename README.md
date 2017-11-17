@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         webView = (WebView) findViewById(R.id.web_content);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
-        webView.loadUrl("http://groupiya.com/beta");
+        webView.loadUrl("http://www.google.com");
         webView.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
