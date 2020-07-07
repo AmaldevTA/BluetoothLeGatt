@@ -17,16 +17,15 @@ repositories {
 }
 
 dependencies {
-    implementation "com.android.support:support-v4:28.0.0"
-    implementation "com.android.support:support-v13:28.0.0"
-    implementation "com.android.support:cardview-v7:28.0.0"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
 }
 
 List<String> dirs = ['main']
 
 android {
     compileSdkVersion 30
-    buildToolsVersion "28.0.3"
 
     defaultConfig {
         minSdkVersion 18
